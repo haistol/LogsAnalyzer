@@ -9,28 +9,28 @@ In  the script ```LogsAnalyser.py``` the report will be printed using the data e
 
 ## Installation
 
-1. Clone this repo
-2. Install Python 3.x (https://www.python.org/downloads)
-3. Install pip tool for Python 3
-4. Test you python intallation
-    * Open a command line terminal
-    * On that terminal run : ```python --version``` or ```python3 --version```
-    * You should see a line with the python version you have installed
-5. Install the Python PostgreSQL module using pip
-    * Open a command line terminal
-    * On that terminal run : ```pip3 install psycopg2```
+1. Clone this repo.
+2. Install Python 3.x (https://www.python.org/downloads).
+3. Install pip tool for Python 3.
+4. Test your Python installation.
+    * Open a command line terminal.
+    * On that terminal run : ```python --version``` or ```python3 --version```.
+    * You should see a line with the python version you have installed.
+5. Install the Python PostgreSQL module using pip.
+    * Open a command line terminal.
+    * On that terminal run : ```pip3 install psycopg2```.
 6. Modify the connection string in the ```LogsAnalyser.py``` file to connect to your database
-    * got to repo directory location on your machine
-    * open the ```LogsAnalyser.py``` file in your favorite editor
-    * on line #5 replace the value of the variable ```db_conn_string``` with your database connection data. 
-    * For more info about the connection string you can visit : https://wiki.postgresql.org/wiki/Using_psycopg2_with_PostgreSQL
+    * Go to repo directory location on your machine.
+    * Open the ```LogsAnalyser.py``` file in your favorite editor.
+    * On line #5 replace the value of the variable ```db_conn_string``` with your database connection data. 
+    * For more info about the connection string you can visit : https://wiki.postgresql.org/wiki/Using_psycopg2_with_PostgreSQL.
         
 
 
-## Requerement
+## Requirement
 
 1. PostgreSQL database
-2. A database with at least this elements
+2. A database with at least this elements:
     * Table name: authors 
         - Columns:
             name (text),
@@ -58,5 +58,5 @@ In  the script ```LogsAnalyser.py``` the report will be printed using the data e
 ## Run Step
 
 1. Open a command line terminal
-2. On that terminal got to repo directory location on your machine
+2. On that terminal go to repo directory location on your machine
 3. On that terminal run: ```python LogsAnalyser.py``` or ```python3 LogsAnalyser.py```
